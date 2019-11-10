@@ -25,8 +25,6 @@ h2 {
     color: silver;
 }
 
-/* -------------------------------------------------- */
-
 /*
 pouzivame mobile first pristup
 tj. vychozi styly mimo media query jsou pro nejmensi mobilni zarizeni (telefony)
@@ -39,14 +37,87 @@ notebook/pc:
 }
 */
 
-/* tvoje styly sem */
+/* -------------------------------------------------- */
+
+.doporucujeme {
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+    text-shadow: 1px 1px 2px black; 
 }
 
+.hlavni-recept{
+    min-height: 200px;
+    width: 100%;
+    position: relative;
+    background-size: auto;
+    background-position: center;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(images/burger.jpg) no-repeat;
+    border: 0.3px solid white;
+    max-width: 100%;
 }
 
+.recept {
+    position: relative;
+    min-height: 90px;
+    width: 100%;
+}
+
+.hlavni-recept .recept-nazev {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.recept2 {
+    background-position: center;
+    background-size: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(images/sushi.jpg) no-repeat;
+    border: 0.3px solid white;
+    max-width: 100%;
+}
+
+.recept3 {    
+    background-position: center;
+    background-size: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(images/kure.jpg) no-repeat;
+    border: 0.3px solid white;
+    max-width: 100%;
+}
+
+.recept4 {
+    background-position: center;
+    background-size: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(images/rajcata.jpg) no-repeat;
+    border: 0.3px solid white;
+    max-width: 100%;
+}
+
+.recept5 {
+    background-position: center;
+    background-size: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(images/grilovani.jpg) no-repeat;
+    border: 0.3px solid white;
+    max-width: 100%;
+}
+
+.recept-nazev {
+    font-size: 18px;
+    font-weight: 800;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.recept-kategorie {
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 
 .recept-komentare {
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
 
 /* tablet */
@@ -94,7 +165,7 @@ notebook/pc:
     .hlavni-recept{
         min-height: 400px;
         width: 33.33%;
-        float: left;¨
+        float: left;
         background-size: auto;
     }
 
